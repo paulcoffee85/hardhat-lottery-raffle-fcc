@@ -1,0 +1,28 @@
+
+
+
+
+
+
+This code is defining a test case for the constructor function of a smart contract. 
+The it() function is another function provided by the Mocha testing framework,
+ and is used to define an individual test case within a describe block.
+
+ describe("constructor", async function(){
+        it("Initializes the Raffle correctly ", async function(){
+            //
+        })
+    })
+
+The purpose of this test case is to verify that the constructor function initializes the Raffle smart contract correctly.
+The async function passed as the second argument to it contains the actual test code that will be run when this test case
+ is executed.
+
+Possible test cases that could be run to ensure that the constructor function initializes the Raffle contract correctly include:
+
+Check that the initial raffleState is set to "Open"
+Check that the owner of the contract is set to the correct Ethereum address
+Check that the ticketPrice is set to the correct value
+Check that the minimumPlayers is set to the correct value
+Check that the players array is initialized to an empty array
+Check that the playerMap mapping is initialized correctly (if applicable)
